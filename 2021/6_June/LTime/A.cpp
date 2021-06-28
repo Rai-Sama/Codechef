@@ -10,9 +10,22 @@ const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 
 
-// Codechef June 21 Lunch time Prog B
+// Codechef June 21 Lunch time Problem A
 void solve() {
-	
+	string a;
+	cin>>a;
+	if(a[0] == '1'){
+		cout<<1<<0;
+		for(int i = 1; a[i]; i++){
+			cout<<a[i];
+		}
+	}
+	else{
+		cout<<1;
+		for(int i = 0; a[i]; i++){
+			cout<<a[i];
+		}
+	}
 	cout<<"\n";
 }
 //for(int i = 0; i < n; i++)

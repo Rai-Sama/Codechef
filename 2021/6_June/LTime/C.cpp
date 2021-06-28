@@ -10,9 +10,16 @@ const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 
 
-// Codechef June 21 Lunch time Prog D
+// Codechef June 21 Lunch time Problem C
 void solve() {
-	
+    ll a,b;
+    cin>>a>>b;
+    while(!(b&1))
+        b /= 2;
+    if(b == 1)
+        cout<<"Yes";
+    else
+        cout<<"No";
 	cout<<"\n";
 }
 //for(int i = 0; i < n; i++)
